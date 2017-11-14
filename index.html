@@ -16,7 +16,7 @@
         <div class="jumbotron parallax jumbotron-fluid">
           <div class="container-fluid">
             <h1 class="display-3">Tech Town Showcase</h1>
-            <p class="lead">A career event for Madison High School</p>
+            <p class="lead">A career event for Madison County Schools</p>
           </div>
         </div>
         <br/>
@@ -45,9 +45,9 @@
                 <div class="col col-md-6">
                   <article>
 
-                    <p>The Madison County Economic Development Board is sponsoring an event on November 30th called Madison Tech Town Support.  Madison Tech Town Support aims to expose Madison County juniors and seniors to the many types of tech careers available.  This event is born out of Madison County being designated as a Tech Hire community; an initiative started by President Barack Obama to help train people in rural and underserved communities for careers in the tech sector.  MTTS is styled like a career fair and students travel from vendor to vendor learning about what the company does and what type of tech professionals they employee.</p>
+                    <p>The Madison County Economic Development Department is sponsoring an event on November 30th called Madison Tech Town Showcase.  Madison Tech Town Showcase aims to expose Madison County juniors and seniors to the diversity of tech careers available.  This event is born out of Madison County being designated as a Tech Hire community; an initiative started by President Barack Obama to help train people in rural and underserved communities for careers in the tech sector.  MTTS is styled like a career fair and students travel from vendor to vendor learning about what the company does and what type of tech professionals they employee.</p>
                     <br/>
-                    <p>Madison High School and the Madison County Economic development board can use your help!  We are looking for local tech businesses to set up tables at the event and engage WNCs next generation of tech workers.  We need people in the community to demonstrate that “coding” doesn’t just mean doing medical paperwork and that there is other work in tech besides fixing computers.</p>
+                    <p>Madison High School and the Madison County Economic Development Department can use your help!  We are looking for local tech businesses to set up tables at the event and engage WNCs next generation of tech workers.  We need people in the community to demonstrate that “coding” doesn’t just mean doing medical paperwork and that there is other work in tech besides fixing computers.</p>
                     <br/>
                   </article>
                 </div>
@@ -206,7 +206,36 @@
           </div>
         </nav>
       </div> -->
-      <script type="text/javascript" src="example.js"></script>
+      <!-- <script type="text/javascript" src="example.js"></script> -->
+      <div class="container">
+  <div class="row">
+    <div id="map" style="height:400px" class="col-12 col-md-5">
+        <!-- <div  style="width:600px;height:600px;background:yellow"></div> -->
+
+      <script>
+      var map;
+      function myMap() {
+        var pin = {lat: 35.815186, lng: -82.672967};
+        var mapCanvas = document.getElementById('map');
+        var mapOptions = {
+          center: {lat: 35.815186, lng: -82.672967}, zoom: 11
+        };
+        map = new google.maps.Map(mapCanvas, mapOptions);
+        var marker = new google.maps.Marker({
+          position: pin,
+          map: map
+        });
+      }
+      </script>
+      <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyD_qCLRHmcs6SNqebZOKBqIKSBfMF0CwZQ&callback=myMap" async defer></script>
+    </div>
+    <div class="col-12 col-md-6">
+      <p>The event will be held at Madison High School</p
+      <p>5740 US-25</p>
+      <p>Marshall, NC 28753</p>
+    </div>
+  </div>
+</div>
       </body>
 
       </html>
