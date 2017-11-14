@@ -1,2 +1,167 @@
 $icon-font-path: '~bootstrap-sass/assets/fonts/bootstrap/';
 @import '~bootstrap-sass/assets/stylesheets/bootstrap';
+@import 'colors';
+
+a {
+  color: $light-slate-gray;
+  &:hover {color: $light-blue;}
+  &:visited {color: $darkest-blue;}
+}
+
+.active1 {
+  background-color: $dimgray;
+}
+
+article {
+  margin-left: 20px;
+  text-align: justify;
+}
+
+.headers {
+  color: $light-slate-gray;
+}
+
+body {
+  background-color: $dimgray;
+  color: $orange;
+  font-size: 20px;
+  font-family: sans-serif;
+  font-weight: normal;
+  position: relative;
+  z-index: 2;
+}
+
+#mced-logo {
+  height: 120px;
+  margin-right: 20px;
+  width: 310px;
+}
+
+#mcs-logo {
+  float: inline;
+}
+
+.logo-container {
+  background-color: $white;
+  height: 600px;
+  width: auto;
+  // margin-left: 0;
+  // margin-right: 0;
+}
+
+.logo {
+  height: 120px;
+  margin: 15px;
+  padding: 10px;
+  width: 310px;
+}
+
+#ab-tech-logo {
+  height: 120px;
+  width: 250px;
+}
+
+#craftpeak-logo {
+  height: 60px;
+  margin-left: 55px;
+  margin-top: 35px;
+  width: 380px;
+}
+
+#montreat-logo {
+  height: 120px;
+  margin-left: 25px;
+  margin-top: 15px;
+  width: 270px;
+}
+
+#tts-flyer {
+  height: 900px;
+  width: 575px;
+}
+
+.parallax {
+  // /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  // /* The image used */
+  // background-image: url('/../lib/images/girl1-preso.jpg');
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: cover;
+  // /* Set a specific height */
+  min-height: 350px;
+  position: relative;
+  z-index: -1;
+}
+
+.signature {
+  color: $light-slate-gray;
+  font-size: 14px;
+  margin-left: 53px;
+  text-align: center;
+}
+
+.sponsors {
+  background-color: $darkslategray;
+  height: 200px;
+  width: auto;
+}
+
+// .bg {
+//   background: url('/../images/tech-town-showcase-students.JPG') no-repeat cover;
+//   background-color: $darkslategray;
+//   // /*same height as jumbotron */
+//   height: 350px;
+//   margin-left: -20px;
+//   margin-top: 20px;
+//   position: fixed;
+//   width: 100%;
+//   z-index: -1;
+// }
+
+.jumbotron {
+  background: url('/../images/tech-town-showcase-students.JPG');
+  background-repeat: no-repeat;
+  background-position: top;
+  -webkit-background-size: cover;
+  background-size: cover;
+  color: $orange;
+  height: 450px;
+  text-shadow: #444 0 1px 1px;
+
+}
+
+.navbar {
+  background-color: $dimgray;
+  color: $white;
+}
+
+.dropbtn {
+  background-color: $light-slate-gray;
+  border: 0;
+  border-radius: 10px;
+  box-shadow: 3px 3px $percent30;
+  color: $dimgray;
+  cursor: pointer;
+  font-size: 14px;
+  margin: 3px 0;
+  padding: 5px 9px;
+}
+
+// /* Responsive layout - makes a two column-layout instead of four columns */
+@media (max-width: 800px) {
+  .column {
+    width: 50%;
+    }
+}
+
+// /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media (max-width: 600px) {
+  .column {
+    width: 100%;
+   }
+}
+
+p {
+  font-weight: normal;
+}

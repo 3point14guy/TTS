@@ -1,11 +1,6 @@
-import css from './app.scss';
+'use strict'
 
-var jumboHeight = $('.jumbotron').outerHeight();
-function parallax () {
-    var scrolled = $(window).scrollTop();
-    $('.bg').css('height', (jumboHeight-scrolled) + 'px');
+module.exports = {
+
+  host: 'http://localhost:4741'
 }
-
-$(window).scroll(function(e){
-    parallax();
-});
