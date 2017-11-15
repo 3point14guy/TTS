@@ -5,7 +5,7 @@ $icon-font-path: '~bootstrap-sass/assets/fonts/bootstrap/';
 a {
   color: $orange;
   &:hover {color: $light-blue;}
-  &:visited {color: $darkest-blue;}
+  &:visited {color: $light-slate-gray;}
 }
 
 .active1 {
@@ -113,19 +113,19 @@ body {
   font-weight: bold;
 }
 
-.parallax {
-  // /* Create the parallax scrolling effect */
-  background-attachment: fixed;
-  // /* The image used */
-  // background-image: url('/../lib/images/girl1-preso.jpg');
-  background-position: top;
-  background-repeat: no-repeat;
-  background-size: cover;
-  // /* Set a specific height */
-  min-height: 350px;
-  position: relative;
-  z-index: -1;
-}
+// .parallax {
+//   // /* Create the parallax scrolling effect */
+//   background-attachment: fixed;
+//   // /* The image used */
+//   // background-image: url('/../lib/images/girl1-preso.jpg');
+//   background-position: top;
+//   background-repeat: no-repeat;
+//   background-size: cover;
+//   // /* Set a specific height */
+//   min-height: 350px;
+//   position: relative;
+//   z-index: -1;
+// }
 
 .signature {
   color: $light-slate-gray;
@@ -152,7 +152,7 @@ body {
   background-size: cover;
   color: $orange;
   height: 450px;
-  text-shadow: #444 0 3px 3px;
+  text-shadow: $darkslategray 0 3px 3px;
 
 
 }
