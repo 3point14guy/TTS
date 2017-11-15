@@ -3,7 +3,7 @@ $icon-font-path: '~bootstrap-sass/assets/fonts/bootstrap/';
 @import 'colors';
 
 a {
-  color: $light-slate-gray;
+  color: $orange;
   &:hover {color: $light-blue;}
   &:visited {color: $darkest-blue;}
 }
@@ -77,7 +77,36 @@ body {
 
 #tts-flyer {
   height: 900px;
+  margin-left: -25px;
   width: 575px;
+}
+
+#map {
+  float: right;
+  height: 400px;
+  margin-right: 50px;
+  width: 550px;
+}
+
+.contact {
+  line-height: 70%;
+  margin-left: 50px;
+}
+
+.contact-container {
+  background-color: $darkslategray;
+  height: 500px;
+  padding-top: 50px;
+  width: auto;
+}
+
+.contact-indent {
+  margin-left: 100px;
+}
+
+.partners {
+  color: $darkslategray;
+  font-weight: bold;
 }
 
 .parallax {
@@ -107,17 +136,9 @@ body {
   width: auto;
 }
 
-// .bg {
-//   background: url('/../images/tech-town-showcase-students.JPG') no-repeat cover;
-//   background-color: $darkslategray;
-//   // /*same height as jumbotron */
-//   height: 350px;
-//   margin-left: -20px;
-//   margin-top: 20px;
-//   position: fixed;
-//   width: 100%;
-//   z-index: -1;
-// }
+.text {
+  margin-left: -15px;
+}
 
 .jumbotron {
   -webkit-background-size: cover;
@@ -127,7 +148,7 @@ body {
   background-size: cover;
   color: $orange;
   height: 450px;
-  text-shadow: #444 0 1px 1px;
+  text-shadow: #444 0 3px 3px;
 
 
 }
