@@ -47,7 +47,7 @@ body {
 
 .logo-container {
   background-color: $white;
-  height: 600px;
+  height: 700px;
   width: auto;
   // margin-left: 0;
   // margin-right: 0;
@@ -92,6 +92,15 @@ body {
   width: 550px;
 }
 
+#wcu-logo {
+  margin-top: 40px;
+  width: 346px;
+}
+
+#mac {
+  margin-top: -40px;
+}
+
 .contact {
   line-height: 70%;
   margin-left: 50px;
@@ -113,6 +122,11 @@ body {
   font-weight: bold;
 }
 
+#mac-logo {
+  height: 250px;
+  width: 250px;
+}
+
 // .parallax {
 //   // /* Create the parallax scrolling effect */
 //   background-attachment: fixed;
@@ -132,6 +146,10 @@ body {
   font-size: 14px;
   margin-left: 53px;
   text-align: center;
+}
+
+.spacer {
+  height: 20px;
 }
 
 .sponsors {
