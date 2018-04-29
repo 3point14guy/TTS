@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html>
+    <head>
+      <title>Tech Town Showcase</title>
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+
+      <!-- Do not add `link` tags unless you know what you are doing -->
+      <link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
+
+      <!-- Do not add `script` tags unless you know what you are doing -->
+      <script src="public/vendor.js" type="text/javascript" charset="utf-8" defer></script>
+      <script src="public/application.js" type="text/javascript" charset="utf-8" defer></script>
+    </head>
+    <body class="container-fluid">
+        <!-- <div class="bg"></div> -->
+        <div id="home" class="jumbotron jumbotron-fluid">
+          <div class="container-fluid">
+            <h1 class="display-3">Tech Town Showcase</h1>
+            <p class="lead">A career event for Madison County Schools</p>
+          </div>
+        </div>
+        <br/>
+        <br/>
+
+      <div class="sponsors container-fluid">
+        <p>Sponsored by:</p>
+        <div class="row">
+        <div class="col col-md-3"></div>
+        <div class="col col-md-3">
+        <img id="mced-logo" src="https://user-images.githubusercontent.com/28842407/32813760-b8cac332-c979-11e7-960c-f7cb07187078.jpg" alt="Madison County Economic Development Logo" />
+      </div>
+      <div class="col col-md-3">
+        <img id="mcs-logo" src="https://user-images.githubusercontent.com/28842407/32813763-beb3a4ee-c979-11e7-97a1-38b7d545c454.png" alt="Madison High Logo" />
+      </div>
+      <div class="col col-md-3"></div>
+      </div>
+    </div>
+      <br/>
+      <br/>
+            <div id="about" class="container">
+              <div class="row">
+                <div class="col col-md-6">
+                  <img id="tts-flyer" src="https://user-images.githubusercontent.com/28842407/32813770-c9931070-c979-11e7-9121-0363dab341ce.jpg" alt="Tech Town Showcase Flyer" />
+                </div>
+                <div class="col text col-md-6">
+                  <article>
+
+                    <p>The Madison County Economic Development Department is sponsoring an event on November 30th called Madison Tech Town Showcase.  Madison Tech Town Showcase aims to expose Madison County juniors and seniors to the diversity of tech careers available.  This event is born out of Madison County being designated as a Tech Hire community; an initiative started by President Barack Obama to help train people in rural and underserved communities for careers in the tech sector.  MTTS is styled like a career fair and students travel from vendor to vendor learning about what the company does and what type of tech professionals they employee.</p>
+                    <br/>
+                    <p>Madison High School and the Madison County Economic Development Department can use your help!  We are looking for local tech businesses to set up tables at the event and engage WNCs next generation of tech workers.  We need people in the community to demonstrate that “coding” doesn’t just mean doing medical paperwork and that there is other work in tech besides fixing computers.</p>
+                  </article>
+                </div>
+                </div>
+          </div>
+          <br/>
+          <br/>
+          <div id="contact" class="container contact-container container-fluid">
+            <div class="row">
+              <div class="col-12 col-md-6">
+                <div class="contact">
+                <p>To sign up for this event or for more information, please contact:</p>
+                    <br/>
+                  <br/>
+                  <br/>
+                    <div class="contact-indent">
+                     <p>  Sara Nichols- County Planner</p>
+                     <p>  Madison County Economic Development</p>
+                     <p>  828-649-1377</p>
+                     <p><a href="mailto:snichols@madisoncountync.gov?Subject=Tech%20Town%20Showcase" target="_top">  snichols@madisoncountync.gov</a></p>
+                   </div>
+                     <br/>
+                     <br/>
+                     <br/>
+                     <br/>
+                     <br/>
+                <p>The event will be held at:</p>
+                <br/>
+                <br/>
+                <br/>
+                <div class="contact-indent">
+                     <p>Madison High School</p>
+                     <p>5740 US-25</p>
+                     <p>Marshall, NC 28753</p>
+                   </div>
+                   </div>
+              </div>
+              <div id="map" class="col-12 col-md-6">
+
+                <script>
+                var map;
+                function myMap() {
+                  var pin = {lat: 35.815186, lng: -82.672967};
+                  var mapCanvas = document.getElementById('map');
+                  var mapOptions = {
+                    center: {lat: 35.710390, lng: -82.578223}, zoom: 10
+                  };
+                  map = new google.maps.Map(mapCanvas, mapOptions);
+                  var marker = new google.maps.Marker({
+                    position: pin,
+                    map: map
+                  });
+                }
+                </script>
+                <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyD_qCLRHmcs6SNqebZOKBqIKSBfMF0CwZQ&callback=myMap" async defer></script>
+              </div>
+            </div>
+          </div>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <div id="partners" class="container container-fluid logo-container">
+          <div class="row">
+            <div class="col-12 col-md-12">
+              <h1 class="partners">Event Partners</h1>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-12 col-md-3">
+              <img class="logo" id="ab-tech-logo" src="https://user-images.githubusercontent.com/28842407/32813750-ab1c3540-c979-11e7-8dc4-1dd0bf28653d.jpg" alt="AB Tech logo" />
+            </div>
+            <div class="col-12 col-md-3">
+              <img class="logo" src="https://user-images.githubusercontent.com/28842407/32813764-c0f21fa6-c979-11e7-8e56-5105b72ea3a5.png" alt="Mission Health Logo" />
+            </div>
+            <div class="col-12 col-md-3">
+              <img id="montreat-logo" src="https://user-images.githubusercontent.com/28842407/32813765-c2fa31ee-c979-11e7-8300-05542ddbc5e3.jpg" alt="Montreat College Logo" />
+            </div>
+            <div class="col-12 col-md-3">
+              <img class="logo" src="https://user-images.githubusercontent.com/28842407/32813757-b30d243a-c979-11e7-80f5-27dad17aca27.jpg" alt="ERC Logo" />
+            </div>
+            </div>
+            <div class="row spacer">
+            </div>
+          <div class="row">
+            <div class="col-12 col-md-3">
+              <img class="logo" src="./images/dmarcian_logo_green.svg" alt="dmarcian Logo" />
+            </div>
+            <div class="col-12 col-md-3">
+              <img class="logo" src="https://user-images.githubusercontent.com/28842407/32813766-c709652a-c979-11e7-972a-e7080ba09d41.jpeg" alt="Ridge Comm Logo" />
+            </div>
+            <div class="col-12 col-md-3">
+              <img id="craftpeak-logo" src="https://user-images.githubusercontent.com/28842407/32813755-afc2710e-c979-11e7-813e-1ba7d8e6d9ba.jpg" alt="Craftpeak Logo" />
+            </div>
+            <!-- <div class="col-12 col-md-3">
+
+            </div> -->
+            </div>
+
+          <div class="row">
+            <div class="col-12 col-md-3">
+
+            </div>
+            <div class="col-12 col-md-3">
+              <img id="mac-logo" src="https://user-images.githubusercontent.com/28842407/33036970-16ad8e34-cdfe-11e7-958e-1adc83221625.jpg" alt="Mac Logo"/>
+            </div>
+            <div class="col-12 col-md-3">
+              <img id="wcu-logo" src="https://user-images.githubusercontent.com/28842407/33036974-1a5261e0-cdfe-11e7-9c73-8cf53600ba15.jpg" alt="Western Carolina Logo"/>
+            </div>
+            </div>
+
+          <div class="row">
+            <div class="col-12 col-md-3">
+
+            </div>
+            <div class="col-12 col-md-3">
+
+            </div>
+            <div class="col-12 col-md-3">
+
+            </div>
+            <div class="col-12 col-md-3">
+
+            </div>
+            </div>
+</div>
+</div>
+      <br/>
+      <br/>
+       <p class="signature">Website by <a id="signature" href="https://3point14guy.github.io/portfolio/">pieguy designs</a></p>
+
+      <div class="footer">
+        <nav class="navbar navbar-inverse navbar-fixed-top">
+          <div class="container-fluid">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              <a class="navbar-brand" href="#"></a>
+            </div>
+            <div class="collapse navbar-collapse" id="myNavbar">
+              <ul class="nav navbar-nav">
+                <li class="#home"><a href="#">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <li><a href="#partners">Our Partners</a></li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+      </div>
+      </body>
+
+      </html>
